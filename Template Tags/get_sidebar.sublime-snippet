@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[get_sidebar(${1: '${0:name}' });]]></content>
+	<tabTrigger>get_sidebar</tabTrigger>
+	<scope>source.php</scope>
+	<description>get_sidebar(…)</description>
+</snippet>

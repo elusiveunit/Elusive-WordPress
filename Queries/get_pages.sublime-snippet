@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[get_pages( array(
+	${0:'sort_order' => 'ASC',
+	'sort_column' => 'post_title',
+	'hierarchical' => 1,
+	'exclude' => ,
+	'include' => ,
+	'meta_key' => ,
+	'meta_value' => ,
+	'authors' => ,
+	'child_of' => 0,
+	'parent' => -1,
+	'exclude_tree' => ,
+	'number' => ,
+	'offset' => 0,
+	'post_type' => 'page',
+	'post_status' => 'publish'}
+) );]]></content>
+	<tabTrigger>get_pages</tabTrigger>
+	<scope>source.php</scope>
+	<description>get_pages(…)</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[\$${1:var} = new WP_Query( array(
+	$0
+	'no_found_rows' => true, // true to skip count, only needed for pagination
+	'update_post_meta_cache' => false, // false to not grab terms (category, tag...)
+	'update_post_term_cache' => false // false to not grab post meta (custom fields/metaboxes)
+) );]]></content>
+	<tabTrigger>wpq</tabTrigger>
+	<scope>source.php</scope>
+	<description>new WP_Query</description>
+</snippet>

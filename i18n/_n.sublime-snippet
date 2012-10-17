@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[_n( '${1:single}', '${2:plural}', ${3:\$number}, '${0:domain}' )]]></content>
+	<tabTrigger>_n</tabTrigger>
+	<scope>source.php</scope>
+	<description>_n(…)</description>
+</snippet>

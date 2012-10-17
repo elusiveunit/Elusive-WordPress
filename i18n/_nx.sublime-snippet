@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[_nx( '${1:single}', '${2:plural}', ${3:\$number}, '${4:context}', '${0:domain}' )]]></content>
+	<tabTrigger>_nx</tabTrigger>
+	<scope>source.php</scope>
+	<description>_nx(…)</description>
+</snippet>

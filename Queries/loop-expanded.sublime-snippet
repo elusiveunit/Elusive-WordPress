@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[if ( have_posts() ) :
+
+	while ( have_posts() ) : the_post()
+		$0
+	endwhile;
+
+endif;]]></content>
+	<tabTrigger>wploope</tabTrigger>
+	<scope>source.php</scope>
+	<description>Loop [Expanded]</description>
+</snippet>

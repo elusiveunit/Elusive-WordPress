@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<?${TM_PHP_OPEN_TAG:php} if ( have_posts() ) : while ( have_posts() ) : the_post() ?>
+	$0
+<?${TM_PHP_OPEN_TAG:php} endwhile; endif; ?>]]></content>
+	<tabTrigger>wplooph</tabTrigger>
+	<scope>source.php</scope>
+	<description>Loop, HTML</description>
+</snippet>

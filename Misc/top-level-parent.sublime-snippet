@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[// Get top level parent page
+\$parents = array_reverse( get_post_ancestors( \$post->ID ) );
+\$first_parent = get_page( \$parents[0] );$0]]></content>
+	<tabTrigger>top_level_parent</tabTrigger>
+	<scope>source.php</scope>
+	<description>Top level parent</description>
+</snippet>

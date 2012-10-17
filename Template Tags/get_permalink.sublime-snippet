@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[get_permalink(${1: ${0:\$post_id} });]]></content>
+	<tabTrigger>get_permalink</tabTrigger>
+	<scope>source.php</scope>
+	<description>get_permalink(…)</description>
+</snippet>

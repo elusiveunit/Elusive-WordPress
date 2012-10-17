@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[\$paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+// in query args: 'paged' => \$paged$0]]></content>
+	<tabTrigger>query_pagination</tabTrigger>
+	<scope>source.php</scope>
+	<description>query pagination</description>
+</snippet>

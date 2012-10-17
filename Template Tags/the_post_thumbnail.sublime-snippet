@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[the_post_thumbnail( '${1:thumbnail}'${2:, array( ${0:'class' => 'alignleft'} )} );]]></content>
+	<tabTrigger>the_post_thumbnail</tabTrigger>
+	<scope>source.php</scope>
+	<description>the_post_thumbnail(…)</description>
+</snippet>

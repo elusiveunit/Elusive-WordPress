@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[get_template_part( '${1:slug}', '${0:name}' );]]></content>
+	<tabTrigger>gtp</tabTrigger>
+	<scope>source.php</scope>
+	<description>get_template_part(…)</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[if ( \$${1:var}->have_posts() ) :
+
+	while ( \$${1:var}->have_posts() ) : \$${1:var}->the_post()
+		$0
+	endwhile;
+
+endif; wp_reset_postdata();]]></content>
+	<tabTrigger>wploopce</tabTrigger>
+	<scope>source.php</scope>
+	<description>Loop, custom [Expanded]</description>
+</snippet>

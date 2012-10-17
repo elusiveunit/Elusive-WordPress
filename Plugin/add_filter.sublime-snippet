@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[add_filter( '${1:tag}', '${0:callback}' );]]></content>
+	<tabTrigger>add_filter</tabTrigger>
+	<scope>source.php</scope>
+	<description>add_filter(…)</description>
+</snippet>

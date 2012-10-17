@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[_x( '${1:text}', '${2:context}', '${0:domain}' )]]></content>
+	<tabTrigger>_x</tabTrigger>
+	<scope>source.php</scope>
+	<description>_x(…)</description>
+</snippet>
