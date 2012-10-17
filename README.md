@@ -1,4 +1,1 @@
-Elusive-WordPress
-=================
-
-Just some WordPress snippets
+Not much to say, just a bunch of random WordPress snippets.
